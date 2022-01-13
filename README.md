@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution]()
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/tip-calculator-app-react-js-JLA7J5Xdh)
 - Live Site URL: [Live site](https://vicgok.github.io/SPLITTER-tip-calculator-react-app)
 
 ## Author
