@@ -1,0 +1,75 @@
+@import './variables';
+
+.card__input-wrap {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  .card__input-label {
+    font-size: 1rem;
+    color: $Dark-grayish-cyan1;
+    font-weight: 700;
+  }
+
+  .card__input-field {
+    width: 100%;
+    font-family: 'Space Mono', monospace;
+
+    text-align: right;
+    border: 0;
+    outline: 0;
+
+    margin-top: 0.25em;
+    padding: 0.5em;
+    border-radius: 5px;
+
+    font-weight: 700;
+    font-size: 1.2rem;
+    background: $Light-grayish-cyan2;
+    background-repeat: no-repeat;
+    background-position: 0.5em center;
+    box-shadow: inset 0 0 50px hsla(180, 49%, 75%, 0.116);
+
+    &.icon-dollar {
+      background-image: url(../images/icon-dollar.svg);
+    }
+
+    &.icon-person {
+      background-image: url(../images/icon-person.svg);
+    }
+
+    &:focus {
+      outline: 0.15em solid $Strong-cyan;
+    }
+
+    &::placeholder {
+      font-size: 1.5rem;
+      color: $Very-dark-cyan;
+    }
+  }
+
+  .card__input-error-message {
+    position: absolute;
+    right: 0;
+    opacity: 0;
+    transition: all 0.3s ease-in;
+  }
+
+  &.error {
+    .card__input-field {
+      outline: 0.15em solid hsla(8, 39%, 62, 100%);
+    }
+
+    .card__input-error-message {
+      word-spacing: -5px;
+      opacity: 1;
+      color: hsla(8, 39%, 62, 100%);
+    }
+  }
+}
+
+@media (max-width: 23em) {
+  .card__input-wrap .card__input-error-message {
+    bottom: -1.5em;
+  }
+}

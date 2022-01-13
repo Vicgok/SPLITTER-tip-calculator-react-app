@@ -1,0 +1,31 @@
+@import './variables';
+button {
+  font-family: 'Space Mono', monospace;
+  font-size: 1.5rem;
+  font-weight: 700;
+
+  border: none;
+  outline: none;
+
+  border-radius: 5px;
+  background-color: $Very-dark-cyan;
+  color: $White;
+
+  transform: translateY(0);
+  box-shadow: none;
+  transform: scale(1);
+  &:hover {
+    transform: translateY(0.5px);
+    box-shadow: 0 5px 5px 1px hsla(172, 67%, 45%, 0.25);
+    transition: box-shadow 0.3s ease;
+  }
+
+  &:focus {
+    color: $Very-dark-cyan;
+    background-color: $Strong-cyan;
+  }
+  &:active {
+    transform: scale(0.98);
+    transition: all 0.3s ease;
+  }
+}

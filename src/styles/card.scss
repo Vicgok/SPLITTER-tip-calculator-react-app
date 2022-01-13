@@ -1,0 +1,23 @@
+@import './variables';
+
+.card {
+  display: grid;
+
+  row-gap: clamp(2em, 1.6vw, 2.875em);
+  width: clamp(15em, 100vw, 57.5em);
+  background-color: $White;
+  margin-top: clamp(2em, 11vw, 5em);
+  padding: 2.25em 1.875em;
+  border-radius: 1.5em 1.5em 0 0;
+  .card__user-input-wrap > * {
+    margin-top: clamp(2em, 1.6vw, 2.875em);
+  }
+}
+
+@media (min-width: 50em) {
+  .card {
+    grid-template-columns: 1fr 1fr;
+    column-gap: clamp(2em, 3.125vw, 2.8em);
+    border-radius: 1.5em;
+  }
+}

@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+@import './styles/variables';
+.app {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: clamp(2em, 12.8vw, 10em);
+
+  max-width: 95%;
+}

@@ -1,0 +1,37 @@
+@import './variables';
+.card__tip-display-wrap {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2em;
+  background-color: $Very-dark-cyan;
+  padding: 2.25em 1.875em;
+  border-radius: 1.5em;
+  p {
+    color: $White;
+  }
+  p span {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 700;
+
+    color: $Dark-grayish-cyan2;
+  }
+  p:nth-of-type(2) {
+    font-size: clamp(1.8rem, 8.5vw, 3.125rem);
+    font-weight: 700;
+    color: $Strong-cyan;
+  }
+  .card__tip-amt-display,
+  .card__tip-tot-display {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  button {
+    margin-top: auto;
+    background-color: $Strong-cyan;
+    color: $Very-dark-cyan;
+    padding: 0.1em 0;
+  }
+}
