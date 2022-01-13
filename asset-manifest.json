@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/SPLITTER-tip-calculator-react-app/static/css/main.4140dd5d.chunk.css",
+    "main.js": "/SPLITTER-tip-calculator-react-app/static/js/main.9a31ddee.chunk.js",
+    "main.js.map": "/SPLITTER-tip-calculator-react-app/static/js/main.9a31ddee.chunk.js.map",
+    "runtime-main.js": "/SPLITTER-tip-calculator-react-app/static/js/runtime-main.c8fa7dbe.js",
+    "runtime-main.js.map": "/SPLITTER-tip-calculator-react-app/static/js/runtime-main.c8fa7dbe.js.map",
+    "static/js/2.21c95d8b.chunk.js": "/SPLITTER-tip-calculator-react-app/static/js/2.21c95d8b.chunk.js",
+    "static/js/2.21c95d8b.chunk.js.map": "/SPLITTER-tip-calculator-react-app/static/js/2.21c95d8b.chunk.js.map",
+    "index.html": "/SPLITTER-tip-calculator-react-app/index.html",
+    "static/css/main.4140dd5d.chunk.css.map": "/SPLITTER-tip-calculator-react-app/static/css/main.4140dd5d.chunk.css.map",
+    "static/js/2.21c95d8b.chunk.js.LICENSE.txt": "/SPLITTER-tip-calculator-react-app/static/js/2.21c95d8b.chunk.js.LICENSE.txt",
+    "static/media/calculatorInput.scss": "/SPLITTER-tip-calculator-react-app/static/media/icon-person.65bfd204.svg",
+    "static/media/logo.3cc0528b.svg": "/SPLITTER-tip-calculator-react-app/static/media/logo.3cc0528b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c8fa7dbe.js",
+    "static/js/2.21c95d8b.chunk.js",
+    "static/css/main.4140dd5d.chunk.css",
+    "static/js/main.9a31ddee.chunk.js"
+  ]
+}
